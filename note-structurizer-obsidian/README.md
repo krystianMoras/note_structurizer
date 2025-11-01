@@ -1,6 +1,15 @@
 # Helper plugin
 
-1. Put the script in your vault
+# Installation
+
+```
+npm run package
+cp -r dist/note-structurizer-obsidian <your_vault>/.obsidian/plugins
+```
+
+## Script setup
+
+1. Put the enforcer script in your vault
 2. If you don't use global env set the project path like this:
 ```
 cd ~/Documents/projects/note_structure_enforcer && /opt/homebrew/bin/uv run

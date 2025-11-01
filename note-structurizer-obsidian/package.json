@@ -7,7 +7,8 @@
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json",
-		"deploy_local": "mkdir -pv ../examples/.obsidian/plugins/note-structurizer-obsidian && cp ./main.js ../examples/.obsidian/plugins/note-structurizer-obsidian/main.js && cp ./manifest.json ../examples/.obsidian/plugins/note-structurizer-obsidian/manifest.json && cp ./styles.css ../examples/.obsidian/plugins/note-structurizer-obsidian/styles.css"
+		"deploy_local": "mkdir -pv ../examples/.obsidian/plugins/note-structurizer-obsidian && cp ./main.js ../examples/.obsidian/plugins/note-structurizer-obsidian/main.js && cp ./manifest.json ../examples/.obsidian/plugins/note-structurizer-obsidian/manifest.json && cp ./styles.css ../examples/.obsidian/plugins/note-structurizer-obsidian/styles.css",
+		"package": "npm run build && mkdir -pv dist/note-structurizer-obsidian && cp ./main.js ./dist/note-structurizer-obsidian/main.js && cp ./manifest.json ./dist/note-structurizer-obsidian/manifest.json && cp ./styles.css ./dist/note-structurizer-obsidian/styles.css"
 	},
 	"keywords": [],
 	"author": "",

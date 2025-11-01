@@ -3,8 +3,9 @@ import * as fs from "fs";
 import * as path from "path";
 
 interface PythonEnforcerPluginSettings {
-    projectPath: string; // absolute path to your Python project or vault root
+    projectPath: string; // absolute path to the python project
 	overwriteOriginal?: boolean;
+    outputDir?: string;
 }
 
 const DEFAULT_SETTINGS: PythonEnforcerPluginSettings = {
