@@ -9,6 +9,7 @@ llama-server -hf tsej/Llama-PLLuM-8B-instruct-GGUF:Q4_0
 
 ### Note enforcer
 
+Copy contents of `.env.example` to `.env`, should work with default llama.cpp otherwise adjust accordingly (langfuse not required)
 
 ```
 uv sync
