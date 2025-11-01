@@ -1,0 +1,10 @@
+{
+	"id": "note-structurizer",
+	"name": "Note Structurizer",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Clean up your notes with python scripts.",
+	"author": "krystianmoras@gmail.com",
+	"authorUrl": "https://github.com/krystianMoras",
+	"isDesktopOnly": false
+}
